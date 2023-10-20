@@ -21,7 +21,7 @@ const App = () => {
 
   return (
     <ImageContext.Provider value={value}>
-      <div className='bg-white dark:bg-black dark:text-white'>
+      <div className='min-h-screen bg-gradient-to-r from-[#ecc8e9] via-[#F3DCDC] to-[#99f2f7] dark:bg-gradient-to-r dark:from-[#2D4356] dark:to-[#040D12] dark:text-white'>
         <div className='max-w-screen-2xl mx-auto'>
           <Navbar theme={darkTheme} setTheme={setDarkTheme} />
         <div className='pb-20'>
